@@ -8,7 +8,7 @@ interface Props {
 const ExperienceSkill = ({skills}: Props) => {
   return (
     <div className='text-white'>
-      <p className='relative font-primary pt-[3.5rem] pb-[1rem] pl-[1rem] text-3xl font-bold uppercase'>skills</p>
+      <p className='relative font-primary pt-[1rem] md:pt-[3.5rem] pb-[1rem] pl-[1rem] text-3xl font-bold uppercase'>skills</p>
       <div className='flex flex-col w-full pl-[1rem]'>
       {
         skills.map((skill, i) => {
@@ -16,7 +16,7 @@ const ExperienceSkill = ({skills}: Props) => {
             // eslint-disable-next-line react/jsx-key
             <span key={i} className='flex h-[2rem] w-full mb-[1rem] bg-gray-500 uppercase rounded-2xl'>
               <span key={i} 
-                className={`flex w-[${skill.score * 20}%] h-full bg-[#ffa000] rounded-2xl indent-4 items-center text-sm`}
+                className={`flex w-[${skill.score * 20}%] h-full shadow-[-3px_-15px_15px_12px_inset_#ffa000] bg-white rounded-2xl indent-4 items-center text-sm`}
               >
                 {skill.name}
               </span>

@@ -18,7 +18,7 @@ const MobileNav = ({nav, closeNav}: Props) => {
             <div className="nav-link-mobile">Home</div>
             <div className="nav-link-mobile">About</div>
             <div className="nav-link-mobile">Experience</div>
-            <div className="nav-link-mobile">Skills</div>
+            <div className="nav-link-mobile">Project</div>
             <div className="nav-link-mobile">Blog</div>
             <div className="nav-link-mobile">Contact</div>
         </div>

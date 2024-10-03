@@ -34,7 +34,7 @@ const Experience = () => {
                     const end_date = moment(experience.end_date).format('YYYY MMMM');
 
                     // eslint-disable-next-line react/jsx-key
-                    return (<div key={i} className='grid grid-cols-2'>
+                    return (<div key={i} className='grid grid-cols-1 md:grid-cols-2'>
                     <ExperienceItem 
                         company={experience.company} 
                         start_date={start_date} 

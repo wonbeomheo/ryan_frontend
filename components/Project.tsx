@@ -9,30 +9,30 @@ const Project = () => {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
             <div>
-                <div className="bg-[#ac0000] hover:scale-110 transform transition-all duration-300 hover:-rotate-6
+                <div className="bg-[#ac0000] hover:scale-110 transform transition-all duration-300
                 uppercase font-semibold text-center p-[2rem]">
                     <GlobeAltIcon className='w-[6rem] h-[6rem] mx-auto text-slate-200' />
-                    <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                    <h1 className="text-[20px] md:text-[25px] mt-[1.5rem] mb-[1.5rem]">
                         Personal Page
                     </h1>
                     <p className="text-[15px] text-slate-300 font-normal"></p>
                 </div>
             </div>
             <div>
-                <div className="bg-[#ff3939] hover:scale-110 transform transition-all duration-300 hover:-rotate-6
+                <div className="bg-[#ff3939] hover:scale-110 transform transition-all duration-300
                 uppercase font-semibold text-center p-[2rem]">
                     <PresentationChartLineIcon className='w-[6rem] h-[6rem] mx-auto text-slate-200' />
-                    <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                    <h1 className="text-[20px] md:text-[25px] mt-[1.5rem] mb-[1.5rem]">
                         stock ai
                     </h1>
                     <p className="text-[15px] text-slate-300 font-normal"></p>
                 </div>
             </div>
             <div>
-                <div className="bg-[#ffa000] hover:scale-110 transform transition-all duration-300 hover:-rotate-6
+                <div className="bg-[#ffa000] hover:scale-110 transform transition-all duration-300
                 uppercase font-semibold text-center p-[2rem]">
                     <DocumentTextIcon className='w-[6rem] h-[6rem] mx-auto text-slate-200' />
-                    <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                    <h1 className="text-[20px] md:text-[25px] mt-[1.5rem] mb-[1.5rem]">
                         Tech blog
                     </h1>
                     <p className="text-[15px] text-slate-300 font-normal"></p>
