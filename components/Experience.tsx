@@ -4,13 +4,17 @@ import ExperienceSkill from './ExperienceSkill'
 import axios from 'axios'
 import { ExperienceDAO } from '@/DAO/ExperienceDAO'
 import moment from 'moment'
+import process from 'process'
+
 
 const Experience = () => {
     const [experienceList, setExperienceList] = useState<ExperienceDAO[] | null>();
     const [,setErrorMessage] = useState();
+    const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL
+
     useEffect(() => {
         axios.get(
-            'http://127.0.0.1:8000/api/experiences'
+            `${backendUrl}/api/experiences`
         ).then(
             (response) => {
                 setExperienceList(response.data)
