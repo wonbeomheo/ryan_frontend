@@ -3,7 +3,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className='bg-[#1a0000] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
+    <div id="project" className='bg-[#1a0000] pt-[8rem] pb-[5rem]'>
         <p className="heading">
             my <span className='text-[#ac0000]'>projects</span>
         </p>

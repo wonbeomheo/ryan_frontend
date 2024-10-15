@@ -13,12 +13,12 @@ const HomePage = () => {
   const closeNav = () => setNav(false);
 
   return (
-  <div className="overflow-x-hidden">
+  <div id="home" className="overflow-x-hidden">
     <div>
       <MobileNav nav={nav} closeNav={closeNav}/>
       <Nav openNav={openNav} />
       <Hero />
-      <div className='relative z-[30]'>
+      <div className='scroll-smooth relative z-[30]'>
         <About />
         <Experience />
         <Project />

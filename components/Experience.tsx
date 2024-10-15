@@ -7,7 +7,7 @@ import moment from 'moment'
 
 const Experience = () => {
     const [experienceList, setExperienceList] = useState<ExperienceDAO[] | null>();
-    const [errorMessage, setErrorMessage] = useState();
+    const [,setErrorMessage] = useState();
     useEffect(() => {
         axios.get(
             'http://127.0.0.1:8000/api/experiences'
@@ -18,13 +18,11 @@ const Experience = () => {
         ).catch(
             (error) => {
                 setErrorMessage(error.error)
-                console.log(errorMessage);
-                
             }
         )
         }, [])
   return (
-    <div className='bg-[#1a0000] pb-[4rem] pt-[4rem] md:pt-[8rem]'>
+    <div id="experience" className='bg-[#1a0000] pb-[4rem] pt-[8rem]'>
         <p className='heading'>
             experience
         </p>
