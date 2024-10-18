@@ -20,7 +20,7 @@ const MobileNav = ({nav, closeNav}: Props) => {
             <Link className="nav-link-mobile" href='#about' onClick={closeNav}>About</Link>
             <Link className="nav-link-mobile" href='#experience' onClick={closeNav}>Experience</Link>
             <Link className="nav-link-mobile" href='#project' onClick={closeNav}>Project</Link>
-            <Link className="nav-link-mobile" href='#blog' onClick={closeNav}>Blog</Link>
+            <Link className="nav-link-mobile" href='https://ryanheo.hashnode.dev/' target='_blank' onClick={closeNav}>Blog</Link>
             <Link className="nav-link-mobile" href='#contact' onClick={closeNav}>Contact</Link>
         </div>
         <div 

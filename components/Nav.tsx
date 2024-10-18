@@ -18,7 +18,7 @@ const Nav = ({openNav}: Props) => {
         <Link className="nav-link" href="#about" scroll={false}>About</Link>
         <Link className="nav-link" href="#experience">Experience</Link>
         <Link className="nav-link" href="#project">Project</Link>
-        <Link className="nav-link" href="#blog">Blog</Link>
+        <Link className="nav-link" href="https://ryanheo.hashnode.dev/" target="_blank">Blog</Link>
         <Link className="nav-link" href="#contact">Contact</Link>
         <div onClick={openNav}>
           <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-white'/>
